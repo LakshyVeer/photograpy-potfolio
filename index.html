@@ -1,0 +1,118 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <title>Photography Portfolio</title> 
+ 
+    <style>        body {            margin: 0;     font-family: Arial; 
+background: #f2f2f2; 
+}
+       header {            background: black; 
+            color: white;             text-align: center;             padding: 25px; 
+        } 
+ 
+        .container {             width: 90%;             max-width: 900px;             margin: auto;             padding: 20px 0; 
+        } 
+ 
+        /* Category Section */         .category {             margin-top: 25px; 
+       } 
+.category h2 { border-left: 5px solid black;    padding-left: 10px; 
+} 
+       .gallery {             display: grid; 
+            grid-template-columns: repeat(2, 1fr);             gap: 12px;             margin-top: 10px; 
+        } 
+ 
+        .gallery img {             width: 100%;             border-radius: 8px; 
+        } 
+ 
+        /* Booking Form */ 
+        .booking-form input, 
+        .booking-form select, 
+        .booking-form button {            width: 100%;            padding: 10px;     margin-top: 10px; border-radius: 5px; 
+   border: 1px solid gray; 
+} 
+       .booking-form button {             background: black;             color: white;             border: none;             cursor: pointer; 
+        } 
+ 
+        /* Contact Us Sidebar Box */ 
+        .contact-box {             position: fixed;             right: 20px;             bottom: 20px;             background: black;             color: white;             padding: 15px;             width: 200px; 
+           border-radius: 10px; 
+           box-shadow: 0px 0px 12px rgba(0,0,0,0.3); 
+} 
+.contact-box h3 {     margin: 0 0 10px; 
+           font-size: 18px; 
+       } 
+ 
+        .contact-box p {             font-size: 14px;             margin: 5px 0; 
+        } 
+    </style> 
+</head> 
+ 
+<body> 
+ 
+    <header> 
+        <h1>LensCraft Photography</h1> 
+        <p>Capturing Moments, Creating Memories</p> 
+    </header> 
+ 
+   <div class="container"> 
+       <!-- Categories --> 
+       <div class="category"> 
+    <h2>Wedding Photography</h2> 
+    <div class="gallery"> 
+               <img src="https://images.unsplash.com/photo-1707193393033-91ba0d862a2d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d2VkZGluZyUyMHByb3RvZ3JhcGh5fGVufDB8fDB8fHww" alt="Wedding 1"> 
+                <img src="https://plus.unsplash.com/premium_photo-1674435637052-f57069689c5e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8d2VkZGluZyUyMHByb3RvZ3JhcGh5fGVufDB8fDB8fHww" alt="Wedding 2"> 
+            </div> 
+        </div> 
+ 
+        <div class="category"> 
+            <h2>Portrait Photography</h2> 
+            <div class="gallery"> 
+                <img src="https://media.istockphoto.com/id/1285696238/photo/paintography-a-portrait-combined-with-a-painting.jpg?s=612x612&w=0&k=20&c=kvrTyrfKJjsewkGZwlOajdau5s7DIP4pvGzqWC9IT7Y=" alt="Portrait 1"> 
+                <img src="https://media.istockphoto.com/id/1216207674/photo/3d-render-head-human-shattered-portrait.jpg?s=612x612&w=0&k=20&c=lIarMJIYcJsG-1QgGmnjpgbdaOQN6NapiUX6l5tMNEc=" alt="Portrait 2"> 
+            </div> 
+        </div> 
+ 
+        <div class="category"> 
+            <h2>Nature Photography</h2> 
+            <div class="gallery"> 
+                <img src="https://media.istockphoto.com/id/183412466/photo/eastern-bluebirds-male-and-female.jpg?s=612x612&w=0&k=20&c=6_EQHnGedwdjM9QTUF2c1ce7cC3XtlxvMPpU5HAouhc=" alt="Nature 1"> 
+        <img src="https://media.istockphoto.com/id/510682838/photo/the-dance-competition.jpg?s=612x612&w=0&k=20&c=ULUFPZAKWQzWf0V4rRvzjLRSpVf3pjZpZIv-yTqbp7Y=" alt="Nature 2"> 
+            </div> 
+        </div> 
+ 
+        <!-- Booking Form --> 
+        <h2 style="margin-top:30px;">Book a Photoshoot</h2> 
+ 
+        <div class="booking-form"> 
+            <input type="text" placeholder="Your Name"> 
+            <input type="text" placeholder="Phone Number"> 
+            <input type="email" placeholder="Email Address"> 
+             
+            <select> 
+                <option>Select Photography Type</option> 
+                <option>Wedding</option> 
+                <option>Portrait</option> 
+                <option>Nature</option> 
+                <option>Product</option> 
+            </select> 
+ 
+            <button>Book Now</button> 
+        </div> 
+    </div> 
+ 
+    <!-- Contact Us Box --> 
+    <div class="contact-box"> 
+        <h3>Contact Us</h3> 
+        <p>  98765 43210</p> 
+        <p>  lenscraft@gmail.com</p> 
+        <p>  Delhi, India</p> 
+    </div> 
+ 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
